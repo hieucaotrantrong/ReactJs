@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  /* Thêm các kiểu CSS theo mong muốn */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  /* Màu chữ theo mong muốn */
+}
+
+.navbar-brand .fa-icon {
+  font-size: 1.5em;
+  /* Kích thước biểu tượng theo mong muốn */
+}
+
+/* ChatModal.css */
+/* ChatModal.css */
+.chat-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 999;
+}
+
+.chat-modal input {
+  width: 100%;
+  margin-bottom: 10px;
+}
